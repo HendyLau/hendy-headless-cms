@@ -1,3 +1,4 @@
+# Reqruit
 # Local Installation
         composer update
         composer require laravel/sail --dev
@@ -28,7 +29,7 @@
         php artisan migrate
         php artisan storage:link
         php artisan serve
-        then visit `` http://localhost:8000 or http://127.0.0.1:8000
+        then visit  http://localhost:8000 or http://127.0.0.1:8000
 
 
 
@@ -36,13 +37,13 @@
 
 Base URL: http://yourdomain.com/api/v1
 
-- /api/v1/posts	
-- /api/v1/posts?category=berita	
-- /api/v1/posts/slug-judul-post	
-- /api/v1/pages	
-- /api/v1/pages/tentang-kami	
-- /api/v1/categories	
-- /api/v1/categories/berita	
+- /api/v1/posts	                    ***All posts published
+- /api/v1/posts?category=post       ***Filter by category
+- /api/v1/posts/slug-title-post	   ***Detail 1 post
+- /api/v1/pages	            ***All pages    
+- /api/v1/pages/about-me	***Details page   
+- /api/v1/categories	    ***All categories
+- /api/v1/categories/post	***Category details + post list
 
 
 🔹 Posts API
