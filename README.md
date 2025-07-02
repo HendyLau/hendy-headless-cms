@@ -32,9 +32,17 @@
 
 
 
-📘 Public JSON API Documentation
+# Public JSON API Documentation
 
 Base URL: http://yourdomain.com/api/v1
+
+/api/v1/posts	
+/api/v1/posts?category=berita	
+/api/v1/posts/slug-judul-post	
+/api/v1/pages	Semua halaman
+/api/v1/pages/tentang-kami	
+/api/v1/categories	
+/api/v1/categories/berita	
 
 🔹 Posts API
 
