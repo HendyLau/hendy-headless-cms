@@ -41,7 +41,7 @@
 Base URL: http://yourdomain.com/api/v1
 
 - /api/v1/posts	                    ***All posts published
-- /api/v1/posts?category=post       ***Filter by category
+- /api/v1/posts?category=name       ***Filter by category
 - /api/v1/posts/slug-title-post	   ***Detail 1 post
 - /api/v1/pages	            ***All pages    
 - /api/v1/pages/about-me	***Details page   
