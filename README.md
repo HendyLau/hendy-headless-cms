@@ -1,4 +1,8 @@
-# Reqruit
+# Requirements
+    -PHP 8.1
+    -Laravel Framework 8.0
+
+    
 # Local Installation
         composer update
         composer require laravel/sail --dev
@@ -30,7 +34,6 @@
         php artisan storage:link
         php artisan serve
         then visit  http://localhost:8000 or http://127.0.0.1:8000
-
 
 
 # Public JSON API Documentation
@@ -166,4 +169,24 @@ JSON formatted, paginated where applicable
 Ready for frontend or mobile app integration
 
 Dates are in ISO 8601 format (Y-m-dTH:i:s)
+
+
+
+
+# Screen Shoot
+![alt text](image-7.png)
+![alt text](image-8.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+
+![alt text](image-5.png)
+![alt text](image-6.png)
 
