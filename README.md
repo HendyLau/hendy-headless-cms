@@ -44,6 +44,7 @@ Base URL: http://yourdomain.com/api/v1
 - /api/v1/categories	
 - /api/v1/categories/berita	
 
+
 🔹 Posts API
 
 GET /posts
@@ -87,6 +88,8 @@ Description: Get a single published post by slug.
 
 Response: Same as item in list above.
 
+
+
 🔹 Pages API
 
 GET /pages
@@ -109,6 +112,9 @@ Response:
 GET /pages/{slug}
 
 Description: Get a single page by slug.
+
+
+
 
 🔹 Categories API
 
@@ -147,6 +153,8 @@ Response:
     "total": 5
   }
 }
+
+
 
 ✅ Notes
 
