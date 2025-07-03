@@ -34,6 +34,7 @@
         php artisan storage:link
         php artisan serve
         then visit  http://localhost:8000 or http://127.0.0.1:8000
+        http://localhost:8000/register or http://127.0.0.1:8000/register
 
 
 # Public JSON API Documentation
