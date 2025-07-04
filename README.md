@@ -16,6 +16,7 @@
         CREATE USER 'root'@'{{IP}}' IDENTIFIED BY '';
         GRANT ALL PRIVILEGES ON *.* TO 'root'@'172.25.240.222' WITH GRANT OPTION;
         FLUSH PRIVILEGES;
+        Update database in file .env
         php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
         mysql -h {{IP}} -u root
         php artisan lang:generate
