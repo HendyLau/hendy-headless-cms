@@ -19,6 +19,7 @@
         php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
         mysql -h {{IP}} -u root
         php artisan lang:generate
+        php artisan lang:publish
         npm install --save-dev cross-env
         php artisan lang:generate
         php artisan config:clear
