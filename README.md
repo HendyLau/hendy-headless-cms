@@ -1,28 +1,23 @@
 # Requirements
     -PHP 8.1
     -Laravel Framework 8.0
-
+    -Laravel/sail
+    -Laravel/breeze
+    -Laravel-mix@^6.0.0
+    -Laravel/spatie
+    -Stichoza/google-translate-php
+    -Laravel/sanctum
 
 # Local Installation
         composer update
-        composer require laravel/sail --dev
-        php artisan sail:install
-        ./vendor/bin/sail up
-        composer require laravel/breeze --dev
-        php artisan breeze:install livewire
-        npm install laravel-mix@^6.0.0 --save-dev
         npm install
         npm run dev
         cat /etc/resolv.conf | grep nameserver
         CREATE USER 'root'@'{{IP}}' IDENTIFIED BY '';
         GRANT ALL PRIVILEGES ON *.* TO 'root'@'172.25.240.222' WITH GRANT OPTION;
         FLUSH PRIVILEGES;
-        composer require spatie/laravel-permission
-        composer require stichoza/google-translate-php
-        composer require laravel/sanctum
         php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
         mysql -h {{IP}} -u root
-        composer require stichoza/google-translate-php
         php artisan lang:generate
         npm install --save-dev cross-env
         php artisan lang:generate
