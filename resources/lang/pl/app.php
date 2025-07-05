@@ -48,4 +48,9 @@ return array (
   'Category Updated Successfully' => 'Kategoria pomyślnie zaktualizowana.',
   'Category Deleted Successfully' => 'Kategoria pomyślnie usunęła.',
   'Are You Sure Delete Category' => 'Czy na pewno chcesz usunąć tę kategorię?',
+  'Posts Count' => 'Liczba postów',
+  'Pages Count' => 'Strony liczą się',
+  'Categories Count' => 'Liczba kategorii',
+  'Posts per Month' => 'Posty miesięcznie',
+  'Post Status' => 'Status post',
 );

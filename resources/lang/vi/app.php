@@ -48,4 +48,9 @@ return array (
   'Category Updated Successfully' => 'Thể loại được cập nhật thành công.',
   'Category Deleted Successfully' => 'Thể loại đã xóa thành công.',
   'Are You Sure Delete Category' => 'Bạn có chắc là bạn muốn xóa danh mục này?',
-  '
+  'Posts Count' => 'Bài viết đếm',
+  'Pages Count' => 'Trang tính',
+  'Categories Count' => 'Thể loại đếm',
+  'Posts per Month' => 'Bài viết mỗi tháng',
+  'Post Status' => 'Tình trạng đăng bài',
+);

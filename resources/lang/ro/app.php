@@ -48,4 +48,9 @@ return array (
   'Category Updated Successfully' => 'Categoria actualizată cu succes.',
   'Category Deleted Successfully' => 'Categoria ștersă cu succes.',
   'Are You Sure Delete Category' => 'Ești sigur că vrei să ștergi această categorie?',
+  'Posts Count' => 'Numărul de postări',
+  'Pages Count' => 'Pagini contează',
+  'Categories Count' => 'Categoriile contează',
+  'Posts per Month' => 'Postări pe lună',
+  'Post Status' => 'Stare post',
 );

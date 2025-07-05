@@ -48,4 +48,9 @@ return array (
   'Category Updated Successfully' => 'Категорія успішно оновлена.',
   'Category Deleted Successfully' => 'Категорія успішно видалена.',
   'Are You Sure Delete Category' => 'Ви впевнені, що хочете видалити цю категорію?',
+  'Posts Count' => 'Повідомлення',
+  'Pages Count' => 'Сторінки',
+  'Categories Count' => 'Категорії враховують',
+  'Posts per Month' => 'Повідомлення на місяць',
+  'Post Status' => 'Статус розміщення',
 );
